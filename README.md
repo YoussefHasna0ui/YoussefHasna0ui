@@ -1,16 +1,40 @@
-## Hi there 👋
+<p align="center">
+  <img src="https://github.com/YoussefHasna0ui/YoussefHasna0ui/blob/main/profilethumb.png" />
+</p>
 
-<!--
-**YoussefHasna0ui/YoussefHasna0ui** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```js
+import { SoftwareDeveloper } from '@YoussefHasna0ui/Legend';
 
-Here are some ideas to get you started:
+class Bio extends SoftwareDeveloper {
+  name     = 'Youssef Hasnaoui';
+  title    = 'Software Developer';
+  location = 'Ariana, Tunisia';
+  bio      = 'Passionate developer with a love for building impactful software solutions.';
+  github   = 'https://github.com/YoussefHasna0ui';
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  // Function to return email link for hiring inquiries
+  hire() {
+    return 'mailto:hasnaouiyoussef050@gmail.com?subject=Hiring Inquiry';
+  }
+}
+
+class Skills extends SoftwareDeveloper {
+  languages  = ['JavaScript', 'TypeScript', 'Rust', 'Python', 'Golang', 'Java'];
+  frameworks = [
+    'React', 
+    'Next.js', 
+    'React Native', 
+    'Vue', 
+    'SvelteKit', 
+    'Spring', 
+    'Express.js', 
+    'NestJS', 
+    'Axum'
+  ];
+  databases  = ['MySQL', 'MongoDB', 'PostgreSQL', 'Chroma', 'Weaviate'];
+  tools      = ['Docker', 'Kubernetes', 'Git', 'Jenkins'];
+  testingTools  = ['Jest', 'Mocha', 'Cypress', 'Selenium', 'Pytest'];
+  methodologies = ['Scrum', 'DevOps'];
+}
+
+```
